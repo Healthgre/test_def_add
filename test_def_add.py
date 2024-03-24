@@ -43,4 +43,4 @@ def test_addition_with_one_argument():
 
 def test_addition_with_3_argument():
     with pytest.raises(TypeError):
-        add(5, 6, 3)
+        add(5, 6, 3, 7)
